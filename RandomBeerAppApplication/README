@@ -1,6 +1,6 @@
-#RANDOM BEER APPLICATION REST API
+# RANDOM BEER APPLICATION REST API
 
-#Create Beer
+# Create Beer
 Http Method: POST
 /v1/beers/ 
 Request Sample: 
@@ -18,7 +18,7 @@ Response Sample: {
   "breweryLocation": "China"
 }
 
-#Update Beer
+# Update Beer
 Http Method: PUT
 /v1/beers/{id} 
 Request Sample:  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
@@ -36,7 +36,7 @@ Response Sample: {
   "breweryLocation": "China"
 }
 
-#Delete Beer
+# Delete Beer
 Http Method: DELETE
 /v1/beers/{id} 
 Request Sample:  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
@@ -44,7 +44,7 @@ Request Sample:  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
 Response Sample: 5c6b5395b2aa101127d48e6b
 
 
-#Retrieve List Of Beers
+# Retrieve List Of Beers
 Http Method: GET
 /v1/beers/
 Request Sample: http://localhost:9090/v1/beers/
@@ -66,7 +66,7 @@ Response Sample:
   }
  ]
 
-#Retrieve Individual Beer
+# Retrieve Individual Beer
 Http Method: GET
 /v1/beers/{id}
 Request Sample: http://localhost:9090/v1/beers/5c6affa5b2aa108a1571bb2d
@@ -80,7 +80,7 @@ Response Sample:
 }
 
 
-#Retrieve Random Beer
+# Retrieve Random Beer
 Http Method: GET
 /v1/beers/random
 Request Sample: http://localhost:9090/v1/beers/random
@@ -94,11 +94,11 @@ Response Sample:
 }
 
 
-#BUILD:
+# BUILD:
 mvn clean install
 
-#RUN
+# RUN
 java -jar target/beer-nrc-0.0.1-SNAPSHOT.jar
 
-#DOCKER
+# DOCKER
 mvn clean package docker:build

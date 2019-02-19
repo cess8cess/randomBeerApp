@@ -6,6 +6,8 @@ Clone the project
 
 cd randomBeerApp
 
+# LOCAL RUN
+
 # To start the rest api
 
 cd RandomBeerAppApplication
@@ -22,3 +24,9 @@ npm install
 
 npm start
 
+
+# RUNNING ON MINIKUBE
+kubectl apply -f services.yaml
+kubectl apply -f pods.yaml
+minikube ip 
+http://<minikube ip>:30000

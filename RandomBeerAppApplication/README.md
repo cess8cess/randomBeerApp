@@ -2,7 +2,10 @@
 
 # Create Beer
 Http Method: POST
+<br>
 /v1/beers/ 
+<br>
+<i>
 Request Sample: 
 {
 	"name": "sampleBeerName",
@@ -17,6 +20,7 @@ Response Sample: {
   "alcoholPercentage": "5.0",
   "breweryLocation": "China"
 } 
+</i>
 
 # Update Beer
 Http Method: PUT

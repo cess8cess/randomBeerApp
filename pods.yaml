@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: beer-nrc
+  labels:
+    app: beer-nrc
+spec:
+  containers:
+    - name: beer-nrc
+      image: cess8cess/beer-nrc
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: beer-nrc-client
+  labels:
+    app: beer-nrc-client
+spec:
+  containers:
+    - name: beer-nrc-client
+      image: cess8cess/beer-nrc-client

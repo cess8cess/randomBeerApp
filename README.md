@@ -29,4 +29,4 @@ npm start
 kubectl apply -f services.yaml <p>
 kubectl apply -f pods.yaml <p>
 minikube ip <p>
-http://<minikube ip>:30000<p>
+http://[minikubeip]:30000<p>

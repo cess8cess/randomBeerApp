@@ -31,7 +31,7 @@ Http Method: PUT
 /v1/beers/{id} 
 <br>
 <i>
-Request Sample:  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
+Request Sample:<br>  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
 {
 	"name": "sampleBeerName",
 	"description": "sampleBeerDesc",
@@ -64,6 +64,7 @@ Http Method: GET
 <br>
 /v1/beers/
 <br>
+<i>
 Request Sample:<br> http://localhost:9090/v1/beers/
 <p>
 Response Sample: 
@@ -84,12 +85,14 @@ Response Sample:
     "breweryLocation": "Cork"
   }
  ]
+	</i>
 
 # Retrieve Individual Beer
 Http Method: GET
 <br>
 /v1/beers/{id}
 <br>
+<i>
 Request Sample:<br> http://localhost:9090/v1/beers/5c6affa5b2aa108a1571bb2d
 <p>
 Response Sample: <br>
@@ -100,14 +103,16 @@ Response Sample: <br>
   "alcoholPercentage": "4.0",
   "breweryLocation": "Izmir"
 }
-
+</i>
 
 # Retrieve Random Beer
 Http Method: GET
 <br>
 /v1/beers/random
 <br>
+<i>
 Request Sample:<br> http://localhost:9090/v1/beers/random
+<p>
 Response Sample: <br>
 {
   "id": "5c6affa5b2aa108a1571bb2d",
@@ -116,7 +121,7 @@ Response Sample: <br>
   "alcoholPercentage": "4.0",
   "breweryLocation": "Izmir"
 }
-
+</i>
 
 # BUILD:
 mvn clean install

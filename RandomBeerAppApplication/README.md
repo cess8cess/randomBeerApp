@@ -7,12 +7,14 @@ Http Method: POST
 <br>
 <i>
 Request Sample: 
+<br>
 {
 	"name": "sampleBeerName",
 	"description": "sampleBeerDesc",
 	"alcoholPercentage" :"5.0",
 	"breweryLocation": "China"
 }
+	<p>
 Response Sample: {
   "id": "5c6b5395b2aa101127d48e6b",
   "name": "sampleBeerName",
@@ -24,7 +26,10 @@ Response Sample: {
 
 # Update Beer
 Http Method: PUT
+<br>
 /v1/beers/{id} 
+<br>
+<i>
 Request Sample:  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
 {
 	"name": "sampleBeerName",
@@ -32,6 +37,7 @@ Request Sample:  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
 	"alcoholPercentage" :"5.0",
 	"breweryLocation": "China"
 }
+	<p>
 Response Sample: {
   "id": "5c6b5395b2aa101127d48e6b",
   "name": "sampleBeerName",
@@ -39,6 +45,7 @@ Response Sample: {
   "alcoholPercentage": "5.0",
   "breweryLocation": "China"
 }
+		</i>
 
 # Delete Beer
 Http Method: DELETE

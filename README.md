@@ -26,7 +26,7 @@ npm start
 
 
 # RUNNING ON MINIKUBE
-kubectl apply -f services.yaml
-kubectl apply -f pods.yaml
-minikube ip 
-http://<minikube ip>:30000
+kubectl apply -f services.yaml <p>
+kubectl apply -f pods.yaml <p>
+minikube ip <p>
+http://<minikube ip>:30000<p>

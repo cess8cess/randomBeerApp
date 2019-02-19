@@ -14,8 +14,9 @@ Request Sample:
 	"alcoholPercentage" :"5.0",
 	"breweryLocation": "China"
 }
-	<p>
-Response Sample: {
+<p>
+Response Sample:
+<br>{
   "id": "5c6b5395b2aa101127d48e6b",
   "name": "sampleBeerName",
   "description": "sampleBeerDesc",
@@ -38,7 +39,7 @@ Request Sample:  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
 	"breweryLocation": "China"
 }
 	<p>
-Response Sample: {
+Response Sample: <br>{
   "id": "5c6b5395b2aa101127d48e6b",
   "name": "sampleBeerName",
   "description": "sampleBeerDesc",
@@ -49,17 +50,24 @@ Response Sample: {
 
 # Delete Beer
 Http Method: DELETE
+<br>
 /v1/beers/{id} 
-Request Sample:  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
-
-Response Sample: 5c6b5395b2aa101127d48e6b
-
+<br>
+<i>
+Request Sample:<br>  http://localhost:9090/v1/beers/5c6b5395b2aa101127d48e6b
+<p>
+Response Sample:<br> 5c6b5395b2aa101127d48e6b
+</i>
 
 # Retrieve List Of Beers
 Http Method: GET
+<br>
 /v1/beers/
-Request Sample: http://localhost:9090/v1/beers/
+<br>
+Request Sample:<br> http://localhost:9090/v1/beers/
+<p>
 Response Sample: 
+<br>
 [
   {
     "id": "5c6affa5b2aa108a1571bb2d",
@@ -79,9 +87,12 @@ Response Sample:
 
 # Retrieve Individual Beer
 Http Method: GET
+<br>
 /v1/beers/{id}
-Request Sample: http://localhost:9090/v1/beers/5c6affa5b2aa108a1571bb2d
-Response Sample: 
+<br>
+Request Sample:<br> http://localhost:9090/v1/beers/5c6affa5b2aa108a1571bb2d
+<p>
+Response Sample: <br>
 {
   "id": "5c6affa5b2aa108a1571bb2d",
   "name": "Efes",
@@ -93,9 +104,11 @@ Response Sample:
 
 # Retrieve Random Beer
 Http Method: GET
+<br>
 /v1/beers/random
-Request Sample: http://localhost:9090/v1/beers/random
-Response Sample: 
+<br>
+Request Sample:<br> http://localhost:9090/v1/beers/random
+Response Sample: <br>
 {
   "id": "5c6affa5b2aa108a1571bb2d",
   "name": "Efes",
